@@ -35,7 +35,7 @@ Attempt to embed an image:
 
 ![Github Text Logo](GitHub_Logo.png)
 
-## 4.Links:
+## 4. Links:
 
 [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
