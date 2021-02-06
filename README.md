@@ -20,3 +20,15 @@ This is an unordered list:
 * ClassB
   * StudentB1
   * StudentB2
+
+### 2.2. Orderes list:
+
+This is an ordered list:
+
+1. Group1
+1. Group2
+
+## 3. Image:
+
+Attempt to embed an image:
+
