@@ -1,5 +1,5 @@
-**Hello this is Hoang**
-*I'm just trying to get used to github*
+**Hello this is Noob_OWL**
+*I'm just trying to figure out github*
 
 # Practicing Markdown
 *You can see the full tutorial from [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)*
