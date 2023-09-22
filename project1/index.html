@@ -11,7 +11,22 @@
     <form>
         <!-- The below field set contains basic information to fill -->
         <fieldset>
-
+            <label for="first-name">
+                Enter your First Name:
+                <input type="text" name="first-name" id="first-name" required/>
+            </label>
+            <label for="last-name">
+                Enter your Last Name: 
+                <input type="text" name="last-name" id="last-name" required/>
+            </label>
+            <label for="email">
+                Enter your Email: 
+                <input type="email" name="email" id="email">
+            </label>
+            <label for="new-password">
+                Create a New Password: 
+                <input type="password" name="new-password" id="new-password" pattern="[a-z0-5]{8, }" required>
+            </label>
         </fieldset>
         <!-- The below fieldset contains options  -->
         <fieldset>
