@@ -31,8 +31,32 @@
         </fieldset>
         <!-- The below fieldset contains options  -->
         <fieldset>
-            
+            <label for="personal-account">
+                <input type="radio" name="account-type" id="personal-account">
+                Personal Account 
+            </label>
+            <label for="business-account">
+                <input type="radio" name="account-type" id="business-account">
+                Business Account 
+            </label>
         </fieldset>
+        <fieldset>
+            <label for="profile-picture">Upload a profile picture: <input type="file" name="file" id="profile-picture"></label>
+            <label for="age">Input your age: <input type="number" name="age" id="age" min="13" max="120"></label>
+            <label for="referrer"">How did you hear about us: 
+                <select name="referrer" id="referrer">
+                    <option value="">--select one---</option>
+                    <option value="1">Link1</option>
+                    <option value="2">Link2</option>
+                    <option value="3">Link3</option>
+                    <option value="4">Link4</option>
+                </select>
+            </label>
+            <label for="bio">
+                <textarea name="bio" id="bio" cols="30" rows="5" placeholder="Tell me about you..."></textarea>
+            </label>
+        </fieldset>
+        <button type="submit">Submit</button>
     </form>
 </body>
 </html>
